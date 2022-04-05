@@ -48,6 +48,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         }
     }
     
+    // the selector
     @objc func toggleButton(){
         if let menuBtn = statusItem?.button {
             setAccessibilityForPopover()
